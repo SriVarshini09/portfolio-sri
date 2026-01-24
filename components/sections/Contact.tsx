@@ -57,7 +57,7 @@ export default function Contact() {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Connect on LinkedIn',
-      href: 'https://www.linkedin.com/in/tulasi-venkata-sri-varshini-padamata',
+      href: 'https://www.linkedin.com/in/ptvsv/',
       color: 'from-secondary-500 to-secondary-600',
     },
     {
