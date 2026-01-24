@@ -24,40 +24,16 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative flex-shrink-0"
           >
-            <motion.div
-              animate={{ 
-                y: [0, -10, 0],
-              }}
-              transition={{ 
-                duration: 3,
-                repeat: Infinity,
-                ease: "easeInOut"
-              }}
-              className="relative"
-            >
-              {/* Gradient border glow */}
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-secondary-400 via-accent-400 to-secondary-500 blur-xl opacity-60 animate-pulse"></div>
-              
-              {/* Image container */}
-              <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-secondary-400/50 shadow-2xl shadow-secondary-500/30">
-                <div className="absolute inset-0 bg-gradient-to-br from-secondary-500/20 to-accent-500/20 z-10"></div>
-                <Image
-                  src="/uploads/1769216819922_image.png"
-                  alt="Tulasi Venkata Sri Varshini Padamata"
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              </div>
-              
-              {/* Decorative rings */}
-              <motion.div
-                animate={{ rotate: 360 }}
-                transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                className="absolute inset-0 rounded-full border-2 border-dashed border-secondary-400/30"
-                style={{ padding: '10px' }}
-              ></motion.div>
-            </motion.div>
+            <div className="relative w-64 h-80 sm:w-72 sm:h-96 md:w-80 md:h-[28rem] rounded-lg overflow-hidden shadow-2xl">
+              <Image
+                src="/1769216819922_image.jpeg"
+                alt="Tulasi Venkata Sri Varshini Padamata"
+                fill
+                className="object-cover"
+                priority
+                quality={100}
+              />
+            </div>
           </motion.div>
 
           {/* Text Content */}
@@ -83,20 +59,8 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.7 }}
               className="max-w-3xl"
             >
-              <p className="text-base sm:text-lg md:text-xl text-dark-200 leading-relaxed mb-4">
-                ML Engineer specializing in production-scale AI systems with proven expertise in AWS MLOps, 
-                document intelligence, and real-time semantic search. Delivered measurable impact: <span className="text-secondary-400 font-semibold">18% model performance gains</span>, 
-                <span className="text-secondary-400 font-semibold"> 60% reduction in processing time</span>, and <span className="text-secondary-400 font-semibold">35% cost optimization</span> across 
-                LLM deployments.
-              </p>
-              <p className="text-sm sm:text-base md:text-lg text-dark-300 leading-relaxed">
-                Expert in building end-to-end ML pipelines from research to production using PyTorch, Kubernetes, 
-                and distributed systems. Specialized in document intelligence architectures (LayoutLM, BERT), 
-                real-time semantic search (FAISS, Qdrant), and LLM optimization (GPT-4, Claude).
-              </p>
-              <p className="text-sm sm:text-base text-dark-400 mt-3">
-                Currently advancing AI research at <span className="text-secondary-400">Rochester Institute of Technology</span> while 
-                building production-ready AI solutions.
+              <p className="text-base sm:text-lg md:text-xl text-dark-200 leading-relaxed">
+                Production focused Machine Learning Engineer specializing in scalable AI systems and enterprise MLOps. Currently advancing ML expertise through Master's in Artificial Intelligence at Rochester Institute of Technology while architecting robust solutions spanning document intelligence, real time feature engineering, and LLM powered applications. Proven track record deploying high performance ML pipelines on AWS and Kubernetes that deliver measurable impact: 35% inference cost reduction, 60% faster retrieval times, and 84% automation efficiency. Published researcher committed to bridging cutting edge AI research with production grade implementations.
               </p>
             </motion.div>
 

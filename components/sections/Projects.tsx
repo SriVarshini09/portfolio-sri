@@ -14,7 +14,7 @@ const projects = [
       '78% boundary accuracy vs manual annotation',
     ],
     tech: ['CLIP', 'React', 'Python', 'Scene Detection', 'FastAPI'],
-    github: '#',
+    github: 'https://github.com/SriVarshini09/Real-Time-Video-Search-Platform',
     gradient: 'from-secondary-500 to-secondary-600',
   },
   {
@@ -26,7 +26,7 @@ const projects = [
       'Processing 5,000 events/hour at 45ms latency',
     ],
     tech: ['Feast', 'Kafka', 'Kubernetes', 'MLflow', 'Python', 'Docker'],
-    github: '#',
+    github: 'https://github.com/SriVarshini09/Real-Time-Feature-Store-ML-Serving-Platform',
     gradient: 'from-secondary-500 to-secondary-600',
   },
   {
@@ -38,7 +38,7 @@ const projects = [
       'Sub-5 second processing time per document',
     ],
     tech: ['LangChain', 'Qdrant', 'FastAPI', 'RAG', 'Python', 'LLMs'],
-    github: '#',
+    github: 'https://github.com/SriVarshini09/Multi-Agent-Document-Intelligence-System',
     gradient: 'from-secondary-500 to-secondary-600',
   },
   {

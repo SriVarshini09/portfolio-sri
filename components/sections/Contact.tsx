@@ -57,14 +57,14 @@ export default function Contact() {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Connect on LinkedIn',
-      href: '#',
+      href: 'https://www.linkedin.com/in/tulasi-venkata-sri-varshini-padamata',
       color: 'from-secondary-500 to-secondary-600',
     },
     {
       icon: Github,
       label: 'GitHub',
       value: 'View GitHub Profile',
-      href: '#',
+      href: 'https://github.com/SriVarshini09',
       color: 'from-secondary-500 to-secondary-600',
     },
   ]

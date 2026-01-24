@@ -9,7 +9,7 @@ const publications = [
     title: 'Lightweight Channel Attention for Efficient CNNs',
     description: 'Designed and evaluated lightweight channel attention module (LCA) achieving competitive accuracy with negligible parameter and latency overhead. Tested on ResNet-18 and MobileNetV2.',
     status: 'Published',
-    link: '#',
+    link: 'https://arxiv.org/abs/2601.01002',
     highlights: [
       'Negligible parameter overhead',
       'Competitive accuracy on benchmark datasets',
