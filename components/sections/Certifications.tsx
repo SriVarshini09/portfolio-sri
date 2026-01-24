@@ -50,19 +50,9 @@ export default function Certifications() {
                   </div>
                 </div>
 
-                <p className="text-dark-300 mb-6 leading-relaxed flex-1">
+                <p className="text-dark-300 leading-relaxed flex-1">
                   {cert.description}
                 </p>
-
-                <a
-                  href={cert.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-secondary-500 hover:bg-secondary-600 text-white rounded-lg transition-all duration-300 hover:scale-105 font-medium w-full justify-center"
-                >
-                  <ExternalLink className="w-4 h-4" />
-                  <span>View Certificate</span>
-                </a>
               </motion.div>
             </AnimatedSection>
           ))}
