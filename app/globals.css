@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-dark-800;
+  }
+  
+  body {
+    @apply bg-gradient-mesh text-dark-50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-secondary-400 via-accent-400 to-primary-400;
+  }
+
+  .glass-effect {
+    @apply bg-dark-900/40 backdrop-blur-xl border border-dark-700/50;
+  }
+
+  .glow-border {
+    @apply border border-secondary-500/30 shadow-lg shadow-secondary-500/20;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-secondary-500/20;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #10B981;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #059669;
+}
+
+.section-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+}
+
+@media (max-width: 768px) {
+  .section-container {
+    padding: 3rem 1rem;
+  }
+}
