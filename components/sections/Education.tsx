@@ -8,7 +8,7 @@ const education = [
   {
     institution: 'Rochester Institute of Technology',
     degree: "Master's in Artificial Intelligence",
-    duration: 'August 2024 - May 2026',
+    duration: 'August 2024 - May 2026 (Graduated)',
     location: 'Rochester, NY',
     focus: ['Machine Learning Applications', 'Distributed Systems', 'Engineering Scalable Systems'],
     color: 'from-secondary-500 to-secondary-600',

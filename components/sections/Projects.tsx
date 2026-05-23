@@ -6,6 +6,18 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const projects = [
   {
+    title: 'Multi-Agent Hallucination Detection in RAG Systems',
+    description: 'Zero-shot multi-agent pipeline achieving 75%+ labeled accuracy with no training data and no GPU infrastructure. Developed LLM responses into atomic factual claims for precise verification using custom hallucination taxonomy.',
+    achievements: [
+      'Overall F1 of 0.642 with reliable claim-level hallucination detection',
+      'High recall of 0.764 catches 1 out of every 4 real hallucinations',
+      'Task-aware rules drive largest gains (+0.13 F1) for interpretable, class-based hallucination system',
+    ],
+    tech: ['RAG', 'LLMs', 'Multi-Agent', 'NLI', 'Python', 'Zero-Shot'],
+    github: '#',
+    gradient: 'from-secondary-500 to-secondary-600',
+  },
+  {
     title: 'Real-Time Video Search Platform',
     description: 'Engineered CLIP-based video search indexing 25 videos with 380+ scene embeddings. Achieved 1.2s query latency with automatic scene detection at 0.4x speed and 78% boundary accuracy vs manual annotation.',
     achievements: [
@@ -39,18 +51,6 @@ const projects = [
     ],
     tech: ['LangChain', 'Qdrant', 'FastAPI', 'RAG', 'Python', 'LLMs'],
     github: 'https://github.com/SriVarshini09/Multi-Agent-Document-Intelligence-System',
-    gradient: 'from-secondary-500 to-secondary-600',
-  },
-  {
-    title: 'Feature Store & ML Serving Platform',
-    description: 'Unified feature store serving 8 production features with automated monitoring and drift detection. Distributed deployment with Kubernetes ensuring high availability and scalability.',
-    achievements: [
-      'Automated monitoring and drift detection',
-      'Distributed deployment with Kubernetes',
-      'Serving 8 production features',
-    ],
-    tech: ['Kubernetes', 'Docker', 'Python', 'MLOps', 'Monitoring'],
-    github: '#',
     gradient: 'from-secondary-500 to-secondary-600',
   },
 ]

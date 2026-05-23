@@ -60,7 +60,7 @@ export default function Hero() {
               className="max-w-3xl"
             >
               <p className="text-base sm:text-lg md:text-xl text-dark-200 leading-relaxed">
-                Production focused Machine Learning Engineer specializing in scalable AI systems and enterprise MLOps. Currently advancing ML expertise through Master's in Artificial Intelligence at Rochester Institute of Technology while architecting robust solutions spanning document intelligence, real time feature engineering, and LLM powered applications. Proven track record deploying high performance ML pipelines on AWS and Kubernetes that deliver measurable impact: 35% inference cost reduction, 60% faster retrieval times, and 84% automation efficiency. Published researcher committed to bridging cutting edge AI research with production grade implementations.
+                Production focused Machine Learning Engineer specializing in scalable AI systems and enterprise MLOps. Recent Master's graduate in Artificial Intelligence from Rochester Institute of Technology with expertise in architecting robust solutions spanning document intelligence, real time feature engineering, and LLM powered applications. Proven track record deploying high performance ML pipelines on AWS and Kubernetes that deliver measurable impact: 35% inference cost reduction, 60% faster retrieval times, and 84% automation efficiency. Published researcher committed to bridging cutting edge AI research with production grade implementations.
               </p>
             </motion.div>
 

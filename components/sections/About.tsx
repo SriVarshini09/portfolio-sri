@@ -26,8 +26,8 @@ export default function About() {
               <div className="glass-effect p-8 rounded-xl">
                 <h3 className="text-3xl font-bold text-secondary-400 mb-6">Current</h3>
                 <p className="text-lg text-dark-200 leading-relaxed">
-                  Master's student at <span className="text-secondary-400 font-semibold">Rochester Institute of Technology</span> (Aug 2024 - May 2026), 
-                  specializing in Machine Learning Applications, Distributed Systems, and Engineering Scalable Systems.
+                  Recent Master's graduate in Artificial Intelligence from <span className="text-secondary-400 font-semibold">Rochester Institute of Technology</span> (Aug 2024 - May 2026), 
+                  specialized in Machine Learning Applications, Distributed Systems, and Engineering Scalable Systems.
                 </p>
               </div>
 
